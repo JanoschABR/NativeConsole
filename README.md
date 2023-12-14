@@ -2,6 +2,8 @@
 A very simple mod for [Resonite](https://resonite.com) that adds a Console window which will show the game's log output.  
 Since the mod uses a native DLL it will only work on Windows (Tested on 10, maybe works on 11 too).
 
+![Demo PNG](/NativeConsole.PNG)
+
 ## How to install
 The mod uses [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) to function.
 
