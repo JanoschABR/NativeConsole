@@ -4,6 +4,9 @@ Since the mod uses a native DLL it will only work on Windows (Tested on 10, mayb
 
 ![Demo PNG](/NativeConsole.PNG)
 
+## Known Bugs
+- If the console text is highlighted, the game will freeze until it is unhighlighted again. This could be fixed by moving the console code into it's own thread, but that's a lot of work to sync properly and would probably make this whole system have a noticeable performance impact, so... I guess just don't highlight the text. On Windows 10, the text can be unhighlighted by right-clicking into the window.
+
 ## How to install
 The mod uses [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) to function.
 
